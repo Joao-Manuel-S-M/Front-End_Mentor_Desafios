@@ -1,2 +1,4 @@
-# Frontend Mentor - 3-column preview card component
-![desktop-preview](https://user-images.githubusercontent.com/93559636/204889330-18c16781-1ea1-4746-9468-27c2cd0f6b8c.jpg)
+# Front-End_Mentor_Desafios
+Desafios resolvidos do Front-End Mentor <br>
+<br><br>
+<b>Desafio 1</b> - 3-column preview card component: https://3-column-preview-card-component-jade-eight.vercel.app
