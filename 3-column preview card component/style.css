@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatações Gerais */
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    padding: 40px 0 0 40px;
+}
+
+.tittle{
+    padding: 35px 0 0 40px;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-size: 45px;    
+}
+
+.text{
+    padding: 35px 43px 0 40px;
+    color: white;
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px 12px 25px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    top: 103px;
+}
+/* ------- */
+
+
+#card1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 307px;
+    height: 505px;
+    border-radius: 10px 0 0 10px;
+}
+
+#card1 a:hover {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+#card2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 307px;
+    height: 505px;
+}
+
+#card2 a:hover {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+
+#card3 {
+    background-color: hsl(179, 100%, 13%);
+    width: 307px;
+    height: 505px;
+    border-radius: 0 10px 10px 0;
+}
+
+#card3 a:hover {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1000px) {
+    #container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+   
+
+    #card1 {
+        border-radius: 10px 10px 0 0;
+        width: 307px;
+        height: 500px;
+    }
+
+    #card2{
+        width: 307px;
+        height: 500px;
+    }
+
+    #card3 {
+        border-radius: 0 0 10px 10px;
+        width: 307px;
+        height: 500px;
+    }
+}
